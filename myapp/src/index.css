@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 50px;
+    /* background-color: #66ccff; */
+    font-family: cursive;
+    background: url('./assets/vector1.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#container{
+    display: flex;
+    justify-content: flex;
+    
+}
+
+.delete-btn{
+    float: right;
+    border: none;
+    cursor: pointer;
+    font-size: 20px
+}
+.delete-btn:hover{
+    color: rgba(250, 38, 10, 0.623);
+}
+
+#todoList-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
